@@ -5,10 +5,8 @@
     "Authors": [
         "Xinyu Ma",
         "Jiang Yi",
-        "Kunyuan Zhao",
         "Ning Jiang"
     ],
     "HowToAcknowledge": "",
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds006465.v1.0.0"
+    "License": "CC0"
 }
