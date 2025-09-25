@@ -1,34 +1,33 @@
 name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
-Fp1	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-Fp2	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-AF3	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-AF4	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-Fz	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-F3	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-F4	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-F7	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-F8	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-FC1	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-FC2	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-FC5	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-FC6	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-Cz	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-C3	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-C4	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-T7	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-T8	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-CP1	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-CP2	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-CP5	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-CP6	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-Pz	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-P3	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-P4	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-P7	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-P8	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-PO3	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-PO4	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-Oz	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-O1	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-O2	EEG	µV	0.0	100.0	ElectroEncephaloGram	200.0	good	n/a
-Status	TRIG	µV	0.0	100.0	Trigger	200.0	good	n/a
+Fp1	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+Fp2	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+AF3	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+AF4	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+Fz	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+F3	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+F4	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+F7	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+F8	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+FC1	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+FC2	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+FC5	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+FC6	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+Cz	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+C3	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+C4	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+T7	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+T8	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+CP1	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+CP2	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+CP5	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+CP6	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+Pz	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+P3	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+P4	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+P7	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+P8	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+PO3	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+PO4	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+Oz	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+O1	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
+O2	EEG	µV	0.0		ElectroEncephaloGram	500.0	good	
