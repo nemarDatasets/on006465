@@ -1,0 +1,13 @@
+{
+    "Name": "3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Xinyu Ma",
+        "Jiang Yi",
+        "Ning Jiang"
+    ],
+    "HowToAcknowledge": "",
+    "License": "CC0",
+    "DatasetDOI": "doi:10.18112/openneuro.ds006465.v1.0.1"
+}
