@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
+  "description": "3M-CPSEED is an EEG dataset comprising recordings from 20 native Chinese speakers performing overt, silently articulated, and imagined speech tasks using Chinese Pinyin phonemes. The dataset captures neural activity across 6 initials (m, f, j, l, k, ch) and 4 finals (a, i, u, ü), with 1600 trials per participant. This resource supports investigation of neural mechanisms underlying speech production and enables transfer learning applications for alphabetic language research. The dataset is a BIDS-formatted re-hosting of OpenNeuro dataset ds006465 (version 2.0.0) on NEMAR.",
+  "methods_description": "EEG recordings were obtained from 20 healthy, right-handed participants (mean age 24.55 ± 2.58 years; 11 female, 9 male) during three speech conditions: overt speech, silent articulation, and imagined speech. Participants viewed Pinyin stimuli on a screen and performed the corresponding speech task. The stimulus set comprised 6 initials (m, f, j, l, k, ch) and 4 finals (a, i, u, ü). Each participant completed 4 blocks totaling 1600 trials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,48 @@
     "Jiang Yi": {},
     "Ning Jiang": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006465.v2.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "speech imagery"
+    },
+    {
+      "term": "speech motor control"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "phoneme production"
+    },
+    {
+      "term": "Chinese language"
+    },
+    {
+      "term": "Pinyin"
+    },
+    {
+      "term": "silent speech"
+    },
+    {
+      "term": "speech production"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "phoneme classification"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "neurolinguistics"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006465",
       "identifier_type": "URL",
@@ -29,6 +67,11 @@
       "identifier": "10.18112/openneuro.ds006465",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006465.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -39,41 +82,20 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "16.2 GB (344 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".mat",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "3M-CPSEED is an EEG dataset comprising recordings from 20 native Chinese speakers performing Chinese Pinyin production tasks across three modalities: overt speech, silent articulation, and imagined speech. The dataset captures neural activity during articulation of selected Pinyin initials and finals, enabling investigation of speech neurophysiology and cross-linguistic transfer learning applications.",
-  "methods_description": "EEG recordings were obtained from 20 healthy, right-handed participants (mean age 24.55 years, 11 females) during Pinyin production tasks. Participants read Pinyin stimuli displayed on screen under three conditions: overt speech, silent articulation, and imagined speech. The stimulus set comprised 4 finals (a, i, u, ü) and 6 initials (m, f, j, l, k, ch). Each participant completed 4 blocks totaling 1600 trials.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "speech imagery"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "speech production"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "phonetics"
-    }
-  ],
-  "source_hash": "96babf899efdab266c84d72f6aafca50d886ae47bdc323478871e5b2d23bb358"
+  "source_hash": "40dabf7da039bcd1ffb88ca6d6675ed79cab639e76898ed1e72063a3f188982f"
 }
