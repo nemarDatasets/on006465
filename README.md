@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006465-blue)](https://doi.org/10.82901/nemar.on006465)
+
 Overview
 
 This dataset, named 3M-CPSEED, consists of electroencephalogram (EEG) recordings obtained from 20 participants engaged in imagined speech tasks. 3M-CPSEED holds significant implications for speech neurophysiology research, not only facilitating exploration of neural activity differences across pinyin articulations but also enabling robust transfer learning studies for other alphabetic languages.
