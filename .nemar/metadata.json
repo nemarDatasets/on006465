@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006465",
+  "source": "openneuro",
+  "source_id": "ds006465",
+  "title": "3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
+  "authors": {
+    "Xinyu Ma": {},
+    "Jiang Yi": {},
+    "Ning Jiang": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006465.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "a 1.3.5 project for disciplines of excellence from West China Hospital (#ZYYC22001)"
+    }
+  ]
+}
