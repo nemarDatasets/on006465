@@ -1,34 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on006465",
-  "source": "openneuro",
-  "source_id": "ds006465",
+  "pipeline_stage": "validated",
   "title": "3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Xinyu Ma": {},
     "Jiang Yi": {},
     "Ning Jiang": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006465.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006465",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006465",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006465",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "a 1.3.5 project for disciplines of excellence from West China Hospital (#ZYYC22001)"
+      "funder_name": "West China Hospital",
+      "award_number": "ZYYC22001",
+      "award_title": "1.3.5 project for disciplines of excellence"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv"
+  ],
+  "description": "3M-CPSEED is an EEG dataset comprising recordings from 20 native Chinese speakers performing Chinese Pinyin production tasks across three modalities: overt speech, silent articulation, and imagined speech. The dataset captures neural activity during articulation of selected Pinyin initials and finals, enabling investigation of speech neurophysiology and cross-linguistic transfer learning applications.",
+  "methods_description": "EEG recordings were obtained from 20 healthy, right-handed participants (mean age 24.55 years, 11 females) during Pinyin production tasks. Participants read Pinyin stimuli displayed on screen under three conditions: overt speech, silent articulation, and imagined speech. The stimulus set comprised 4 finals (a, i, u, ü) and 6 initials (m, f, j, l, k, ch). Each participant completed 4 blocks totaling 1600 trials.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "speech imagery"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "speech production"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "phonetics"
+    }
+  ],
+  "source_hash": "96babf899efdab266c84d72f6aafca50d886ae47bdc323478871e5b2d23bb358"
 }
