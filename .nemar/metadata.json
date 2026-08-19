@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
-  "description": "3M-CPSEED is an EEG dataset comprising recordings from 20 native Chinese speakers performing overt, silently articulated, and imagined speech tasks using Chinese Pinyin phonemes. The dataset captures neural activity across 6 initials (m, f, j, l, k, ch) and 4 finals (a, i, u, ü), with 1600 trials per participant. This resource supports investigation of neural mechanisms underlying speech production and enables transfer learning applications for alphabetic language research. The dataset is a BIDS-formatted re-hosting of OpenNeuro dataset ds006465 (version 2.0.0) on NEMAR.",
-  "methods_description": "EEG recordings were obtained from 20 healthy, right-handed participants (mean age 24.55 ± 2.58 years; 11 female, 9 male) during three speech conditions: overt speech, silent articulation, and imagined speech. Participants viewed Pinyin stimuli on a screen and performed the corresponding speech task. The stimulus set comprised 6 initials (m, f, j, l, k, ch) and 4 finals (a, i, u, ü). Each participant completed 4 blocks totaling 1600 trials.",
+  "description": "3M-CPSEED is an EEG dataset capturing brain activity from 20 healthy native Chinese speakers performing overt, silent-intended, and imagined speech production of Chinese Pinyin syllables. The dataset targets speech neurophysiology research, particularly the neural correlates of pinyin articulation across speech modes, and supports transfer learning studies for other alphabetic languages.",
+  "methods_description": "EEG was recorded from 20 healthy, right-handed native Chinese speakers (mean age 24.55, SD 2.58; 11 females, 9 males) while they read displayed Pinyin syllables (finals: a, i, u, ü; initials: m, f, j, l, k, ch) under three conditions: overt speech, silently articulated speech, and imagined speech. Each participant completed 4 blocks of 1600 trials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,40 +16,21 @@
       "term": "EEG"
     },
     {
-      "term": "speech imagery"
+      "term": "Speech",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013060"
     },
     {
-      "term": "speech motor control"
+      "term": "imagined speech"
     },
     {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "phoneme production"
-    },
-    {
-      "term": "Chinese language"
-    },
-    {
-      "term": "Pinyin"
-    },
-    {
-      "term": "silent speech"
+      "term": "Chinese Pinyin"
     },
     {
       "term": "speech production"
     },
     {
-      "term": "neural decoding"
-    },
-    {
-      "term": "phoneme classification"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "neurolinguistics"
+      "term": "transfer learning"
     }
   ],
   "related_identifiers": [
