@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
-  "description": "3M-CPSEED is an EEG dataset capturing brain activity from 20 healthy native Chinese speakers performing overt, silent-intended, and imagined speech production of Chinese Pinyin syllables. The dataset targets speech neurophysiology research, particularly the neural correlates of pinyin articulation across speech modes, and supports transfer learning studies for other alphabetic languages.",
-  "methods_description": "EEG was recorded from 20 healthy, right-handed native Chinese speakers (mean age 24.55, SD 2.58; 11 females, 9 males) while they read displayed Pinyin syllables (finals: a, i, u, ü; initials: m, f, j, l, k, ch) under three conditions: overt speech, silently articulated speech, and imagined speech. Each participant completed 4 blocks of 1600 trials.",
+  "description": "3M-CPSEED is an EEG dataset recorded from 20 healthy native Chinese speakers performing Chinese Pinyin production in overt, silent-intended, and imagined speech conditions. The stimulus set of selected finals and initials covers key articulatory features of the Chinese phonological system. The dataset supports research on speech neurophysiology, neural differences across pinyin articulations, and transfer learning to other alphabetic languages.",
+  "methods_description": "Twenty right-handed native Chinese speakers (mean age 24.55 years) read Pinyin syllables presented on a screen and produced them in overt, silently articulated, and imagined phases. Stimuli comprised finals (a, i, u, ü) and initials (m, f, j, l, k, ch). Each participant completed 4 blocks totaling 1600 trials. Labeled and preprocessed data are provided in MAT format alongside the BIDS structure.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,21 +16,24 @@
       "term": "EEG"
     },
     {
-      "term": "Speech",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013060"
-    },
-    {
       "term": "imagined speech"
     },
     {
       "term": "Chinese Pinyin"
     },
     {
-      "term": "speech production"
+      "term": "overt speech"
     },
     {
-      "term": "transfer learning"
+      "term": "silent speech"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Speech",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013060"
     }
   ],
   "related_identifiers": [
@@ -68,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "16.2 GB (344 files)"
+    "15.09 GB (344 files)"
   ],
   "formats": [
     ".edf",
